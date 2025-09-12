@@ -11,31 +11,28 @@ body {
 
 /*-----------------------------------------HEADER-------------------------------------------------*/
 header {
-    background-color: #bbdefb;
+    background-color: #64b5f6;
     position: fixed;
     width: 100%;
-    padding: 1% 2%;
+    padding: 0.5% 2%;
     text-align: left;
-    margin: 0;
 }
 
 /*-----------------------------------------NAV-------------------------------------------------*/
-
-
 nav {
     width: 20%;
 }
 
 nav ul {
     list-style: none;
-    padding-top: 20px;
+    padding-top: 22%;
 }
 
 nav ul li {
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: 7%;
+    margin-bottom: 6%;
     background-color: #64b5f6;
-    border-radius: 5px; /*added to make the box look rounded, used px since its a border*/
+    border-radius: 5px; /*added this to make the border look nice*/
 }
 
 nav ul li a {
@@ -47,10 +44,12 @@ nav ul li a {
 
 /*-----------------------------------------MAIN-------------------------------------------------*/
 main {
-    flex-grow: 1;
     padding-top: 20px;
     background-color: #bbdefb;
-    width: 70%;
+    width: 90%;
+}
+#page-title{
+    text-align: center;
 }
 .main-container {
     display: flex;
@@ -58,10 +57,11 @@ main {
 }
 .white-box {
     background-color: white;
-    padding: 20px;
-    max-width: 1000px;
+    padding: 1.5%;
+    padding-right: 2.5%;
     width: 90%;
     margin: auto;
+    border-radius: 10px; /*added this to make the border look nice*/
 }
 
 .content-container {
@@ -69,19 +69,24 @@ main {
     flex-direction: row;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 100%;
 }
 
-.content-container img {
-    max-width: 30%;
-    height: auto;
-    display: block;
-}
-
-.content-container div {
-    padding: 20px;
+.text-container {
+    padding: 3%;
     background-color: #f4f4f4;
     border-left: 5px solid;
     border-color: #64b5f6;
+    width: 75%;
+}
+
+.image-container {
+    width: 35%;
+    padding: 2%;
+}
+
+.image-container img{
+    max-width: 100%;
 }
 
 main p {
@@ -91,13 +96,13 @@ main p {
 }
 
 .main-description {
-    margin-bottom: 15px;
+    margin-bottom: 1.1%
 }
 
 /*-----------------------------------------FOOTER-------------------------------------------------*/
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 1.1%;
     background-color: #bbdefb;
     margin-top: auto;
 }
@@ -111,16 +116,21 @@ footer p {
     header{
         text-align: center;
     }
+    #page-title{
+        font-size: calc(10px + 1.5vw);
+    }
     .main-container {
         display: flex;
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 15%;
     }
     .content-container{
         display: flex;
         flex-direction: column;
     }
-
+    .text-container {
+        width: 100%;
+    }
     nav {
         width: 100%;
         margin: auto;
@@ -129,30 +139,31 @@ footer p {
     nav ul {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
         width: 100%;
         margin: auto;
         padding: 0;
     }
 
     nav ul li {
-        width: 17%; /* This will ensure all 6 boxes have equal width and fit on one line */
+        width: 17%;
         margin: 0.3%;
-        padding: 5px 0; /* Adjust vertical padding to make the boxes shorter */
+        padding: 1%;
     }
 
     nav ul li a {
         font-size: calc(2px + 2vw);
-        padding: 5px; /* Adjust padding to make the boxes shorter and wider */
+        padding: 10%;
     }
 
     main{
         width: 100%;
     }
-
+    .image-container {
+        width: 50%;
+        margin: 10% auto;
+        padding: 0;
+    }
     footer{
         font-size: calc(2px + 2vw);
     }
-
 }

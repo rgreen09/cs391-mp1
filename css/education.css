@@ -88,16 +88,28 @@ main {
 
 .image-container img{
     max-width: 100%;
+    padding-top: 8%;
 }
 
-main p {
-    font-size: calc(2px + 1.5vw);
-    line-height: calc(10px + 1.5vw);
+#degree-list, #info-list {
+    font-size: calc(2px + 1.3vw);
     margin: 0;
 }
 
 .main-description {
     margin-bottom: 1.1%
+}
+
+#degree-list{
+    border: 1px solid #64b5f6;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#degree-list li{
+    padding: 2%;
+}
+#info-list li{
+    padding-bottom: 2%;
 }
 
 /*-----------------------------------------FOOTER-------------------------------------------------*/
@@ -144,7 +156,7 @@ footer p {
         margin: auto;
         padding: 0;
     }
-    
+
     nav ul li {
         width: 17%;
         margin: 0.3%;

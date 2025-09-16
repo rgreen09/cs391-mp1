@@ -128,7 +128,7 @@ footer p {
         text-align: center;
     }
     #page-title{
-        font-size: calc(10px + 1.5vw);
+        font-size: calc(12px + 3vw);
     }
     .main-container {
         display: flex;
@@ -168,6 +168,10 @@ footer p {
 
     main{
         width: 100%;
+    }
+    main{
+        font-size: calc(6px + 2.4vw);
+        line-height: calc(14px + 2.6vw);
     }
     .image-container {
         width: 60%;

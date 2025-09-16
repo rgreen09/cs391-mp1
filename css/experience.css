@@ -51,6 +51,8 @@ main {
 }
 #page-title{
     text-align: center;
+    font-size: calc(8px + 2vw);
+    margin-top: 1%;
 }
 .main-container {
     display: flex;

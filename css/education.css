@@ -51,6 +51,7 @@ main {
 }
 #page-title{
     text-align: center;
+    font-size: calc(16px + 2vw);
 }
 .main-container {
     display: flex;
@@ -100,6 +101,11 @@ main {
     margin-bottom: 1.1%
 }
 
+#page-title{
+    text-align: center;
+    font-size: calc(8px + 2vw);
+    margin-top: 1%;
+}
 #degree-list{
     border: 1px solid #64b5f6;
     margin-right: 10%;

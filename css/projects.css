@@ -87,16 +87,59 @@ main {
 }
 
 .image-container img{
-    max-width: 100%;
+    max-width: 85%;
+    padding-left: 10%;
 }
 
-main p {
-    font-size: calc(2px + 1.5vw);
-    margin: 0;
+#buttons-div{
+    display: flex;
+    padding-right: 5%;
+    margin-top: 1%;
+    margin-left: 8.5%;
 }
 
-.main-description {
-    margin-bottom: 1.1%
+#buttons-div button{
+    color: #ffffff;
+    background-color: #64b5f6;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    font-size: 1.5vw;
+    width: 14%;
+}
+#input-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    margin-top: 6%;
+}
+#input-one, #input-two{
+    font-size: 1.5vw;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid #64b5f6;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    font-size: 3vw;
+}
+#output{
+    font-size: 3vw;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #64b5f6;
+    width: 100%;
+    background-color: #cbcdce;
+    text-align: center;
+    margin-left: 1%;
+}
+#output-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
 }
 
 /*-----------------------------------------FOOTER-------------------------------------------------*/

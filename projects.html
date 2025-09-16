@@ -23,29 +23,35 @@
     </nav>
     <main>
         <div class="white-box">
+
             <div class="content-container">
+
                 <div class="image-container">
                     <img src="./images/calc.jpg" alt="Image of Raymond Greenberg in a Tuxedo">
                 </div>
+
                 <div class="calculator">
                     <h2 id="page-title">Calculator Project</h2>
-                    <br>
 
-                    <label for="input-one">One</label>
-                    <input id="input-one">
-                    <label for="input-two">Two</label>
-                    <input id="input-two">
+                    <div id="input-div">
+                        <label for="input-one"></label>
+                        <input id="input-one">
+                        <label for="input-two"></label>
+                        <input id="input-two">
+                    </div>
 
-                    <div>
-                        <button onClick="goMultiply()">*</button>
+                    <div id="buttons-div">
+                        <button onClick="goMultiply()">×</button>
                         <button onClick="goSubtract()">-</button>
-                        <button onClick="goDivide()">/</button>
-                        <button onClick="goPower()">**</button>
+                        <button onClick="goDivide()">÷</button>
+                        <button onClick="goPower()">^</button>
                         <button onClick="goAdd()">+</button>
                         <button onClick="goClear()">Clear</button>
                     </div>
 
-                    <p id="output"></p>
+                    <div id="output-div">
+                        <p id="output"></p>
+                    </div>
 
                 </div>
             </div>

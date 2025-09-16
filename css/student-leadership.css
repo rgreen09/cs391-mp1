@@ -90,9 +90,8 @@ main {
     max-width: 100%;
 }
 
-main p {
-    font-size: calc(2px + 1.5vw);
-    line-height: calc(10px + 1.5vw);
+main{
+    font-size: calc(2px + 1.15vw);
     margin: 0;
 }
 
@@ -100,6 +99,9 @@ main p {
     margin-bottom: 1.1%
 }
 
+#page-title{
+    padding-bottom: 1%;
+}
 /*-----------------------------------------FOOTER-------------------------------------------------*/
 footer {
     text-align: center;

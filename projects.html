@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BU CS391 Resume (MP1) | Home</title>
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+</head>
+<body>
+<header>
+    <h2>Raymond Greenberg</h2>
+    <p>My Online Resume</p>
+</header>
+<div class="main-container">
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="experience.html">Experiences</a></li>
+            <li><a href="./student-leadership.html">Leadership</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="white-box">
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="./images/calc.jpg" alt="Image of Raymond Greenberg in a Tuxedo">
+                </div>
+                <div class="calculator">
+                    <h2 id="page-title">Calculator Project</h2>
+                    <br>
+
+                    <label for="input-one">One</label>
+                    <input id="input-one">
+                    <label for="input-two">Two</label>
+                    <input id="input-two">
+
+                    <div>
+                        <button onClick="goMultiply()">*</button>
+                        <button onClick="goSubtract()">-</button>
+                        <button onClick="goDivide()">/</button>
+                        <button onClick="goPower()">**</button>
+                        <button onClick="goAdd()">+</button>
+                        <button onClick="goClear()">Clear</button>
+                    </div>
+
+                    <p id="output"></p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<footer>
+    <p>All Rights Reserved by Raymond Greenberg <a href="">Credits &#169</a></p>
+</footer>
+    <script src="js/projects.js"></script>
+</body>
+</html>

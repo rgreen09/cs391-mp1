@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     background-color: #bbdefb;
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 60px; /* space for fixed footer */
+    padding-bottom: 20%; /* space for fixed footer */
 }
 
 /*-----------------------------------------HEADER-------------------------------------------------*/
@@ -46,9 +46,9 @@ nav ul li a {
 
 /*-----------------------------------------MAIN-------------------------------------------------*/
 main {
-    padding-top: 20px;
+    padding-top: 3%;
     background-color: #bbdefb;
-    width: 90%;
+    width: 70%;
 }
 #page-title{
     text-align: center;
@@ -136,6 +136,11 @@ footer p {
 }
 
 /*-----------------------------------------MEDIA QUERY-------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+    main{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 750px) {
     header{
         text-align: center;
